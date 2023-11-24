@@ -1,7 +1,7 @@
 import webpack from "webpack";
-import { buildWebpack } from "./config/build/buildWebpack";
+import { buildWebpack } from "./config/buildWebpack";
 import path from "path";
-import { BuildOptions, Platform } from "./config/build/types/types";
+import { BuildOptions, Platform } from "./config/types/types";
 
 type Mode = "production" | "development";
 

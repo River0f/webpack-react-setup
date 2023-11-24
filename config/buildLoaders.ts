@@ -2,7 +2,7 @@ import MiniCssExtractPlugin from "mini-css-extract-plugin";
 import { ModuleOptions } from "webpack";
 import { BuildOptions } from "./types/types";
 import ReactRefreshTypeScript from "react-refresh-typescript";
-import { buildBabelLoader } from "../babel/buildBabelLoader";
+import { buildBabelLoader } from "./babel/buildBabelLoader";
 
 export const buildLoaders = (options: BuildOptions): ModuleOptions["rules"] => {
   const isDev = options.mode === "development";
